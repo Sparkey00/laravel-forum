@@ -20,8 +20,8 @@ class ThreadController extends Controller
             ->select('messages.message_text', 'messages.img_path', 'users.name', 'messages.date')
             ->orderBy('messages.message_id','asc')
             ->get();
-
-        return view('thread', compact('thread','threadid'));
+        $threadname = DB::table('threads')->select('thread_name')->where('thread_id','=',$threadid)->get();
+        return view('thread', compact('thread','threadid','threadname'));
     }
 
     public function new(Request $request){

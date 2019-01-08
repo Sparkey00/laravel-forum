@@ -4,6 +4,9 @@
 @section('content')
 
 <table class="post-table">
+    <thead>
+    <th class="text-center" colspan="2">{{$threadname[0]->thread_name}}</th>
+    </thead>
     @foreach($thread as $post)
         <tr>
             <td class="text-right" colspan="2">{{$post->name}} в {{$post->date}}</td>
