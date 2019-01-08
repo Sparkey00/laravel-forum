@@ -213,3 +213,7 @@ textarea{
 b{
     font-weight: bold;
 }
+.pagination-wrapper{
+    width: 0%;
+    margin: 0 auto;
+}

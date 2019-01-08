@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6df56e9d-2667-4c01-88e1-cd06c9eccc63" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ThreadController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ThreadController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/thread.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/thread.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/resources/views/thread.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="427">
-              <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+              <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -92,8 +92,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="213" column="22" selection-start-line="213" selection-start-column="22" selection-end-line="213" selection-end-column="22" />
+            <state relative-caret-position="-15">
+              <caret line="185" column="23" lean-forward="true" selection-start-line="185" selection-start-column="23" selection-end-line="185" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -140,8 +140,8 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/createthread.blade.php" />
         <option value="$PROJECT_DIR$/app/CustomClasses/MessagesWrapper.php" />
-        <option value="$PROJECT_DIR$/public/css/main.css" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ThreadController.php" />
+        <option value="$PROJECT_DIR$/public/css/main.css" />
         <option value="$PROJECT_DIR$/resources/views/thread.blade.php" />
       </list>
     </option>
@@ -387,12 +387,12 @@
       <workItem from="1546605044693" duration="6819000" />
       <workItem from="1546680498702" duration="15472000" />
       <workItem from="1546879227100" duration="648000" />
-      <workItem from="1546926981713" duration="6720000" />
+      <workItem from="1546926981713" duration="6978000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51284000" />
+    <option name="totallyTimeSpent" value="51542000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -678,13 +678,6 @@
     <entry file="file://$PROJECT_DIR$/public/css/app.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="213" column="22" selection-start-line="213" selection-start-column="22" selection-end-line="213" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -712,6 +705,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="185" column="23" lean-forward="true" selection-start-line="185" selection-start-column="23" selection-end-line="185" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/createthread.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -722,7 +722,7 @@
     <entry file="file://$PROJECT_DIR$/resources/views/thread.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
-          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
         </state>
       </provider>
     </entry>

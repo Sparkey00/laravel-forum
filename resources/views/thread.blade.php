@@ -38,6 +38,6 @@
 </form>
 </td></tr>
 </table>
-    <div class="">{{$thread->links()}}</div>
+    <div class="pagination-wrapper">{{$thread->links()}}</div>
 @endsection
 
