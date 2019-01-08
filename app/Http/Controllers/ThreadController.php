@@ -19,7 +19,7 @@ class ThreadController extends Controller
             ->join('users', 'users.id', '=', 'messages.author_id')
             ->select('messages.message_text', 'messages.img_path', 'users.name', 'messages.date')
             ->orderBy('messages.message_id','asc')
-            ->get();
+            ->paginate(5);
         $threadname = DB::table('threads')->select('thread_name')->where('thread_id','=',$threadid)->get();
         return view('thread', compact('thread','threadid','threadname'));
     }

@@ -38,5 +38,6 @@
 </form>
 </td></tr>
 </table>
+    <div class="">{{$thread->links()}}</div>
 @endsection
 
